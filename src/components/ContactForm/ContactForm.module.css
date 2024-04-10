@@ -1,0 +1,43 @@
+.form {
+  width: 350px;
+  height: 250px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-left: 0;
+}
+
+.input {
+  top: 5px;
+}
+
+.input:hover,
+.input:focus,
+.input:active {
+  border: 2px solid rgb(11, 27, 208);
+}
+
+.error {
+  display: block;
+  font-size: 14px;
+  color: orangered;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  width: 150px;
+}
